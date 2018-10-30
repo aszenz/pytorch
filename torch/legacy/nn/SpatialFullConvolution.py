@@ -209,8 +209,6 @@ class SpatialFullConvolution(Module):
             s += ', {}, {}'.format(self.adjW, self.adjH)
 
         s += ')'
-#         print('Has bias: ', hasattr(self, 'bias')
-#         if not hasattr(self, 'bias') or self.bias is None:
         s += ' without bias'
         return s
 
